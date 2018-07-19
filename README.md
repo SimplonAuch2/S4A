@@ -15,8 +15,8 @@ Le second objectif est de prendre conscience de ses acquis en terme de code, via
 
 + Installer [Arduino IDE](https://www.arduino.cc/) (sudo apt install arduino) et [S4A](http://s4a.cat)
 + Brancher l'arduino au PC, le capteur infrarouge et la diode selon les indications suivantes :
-![infrared module wiring](d2bf7e68fbd325a5fd725721756472e2.jpg "Comment brancher le détecteur infrarouge ?")
-![LED wiring](led-13-mega.png "Comment brancher la diode ?")
+![infrared module wiring](https://github.com/SimplonAuch2/S4A/blob/master/infrared.resized.jpg "Comment brancher le détecteur infrarouge ?")
+![LED wiring](https://github.com/SimplonAuch2/S4A/blob/master/led.resized.png "Comment brancher la diode ?")
 
 **Attention ! Celui qui crame le matos a un gage !**
 
@@ -28,4 +28,4 @@ Le second objectif est de prendre conscience de ses acquis en terme de code, via
   + Après 3 détections, le programme s'arrête !
 
 
-![Le projet](led-13-mega.png "Le projet")
+![Le projet](https://github.com/SimplonAuch2/S4A/blob/master/IMG_20180719_123834.resized.jpg "Le projet")
