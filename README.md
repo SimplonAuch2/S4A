@@ -1,31 +1,36 @@
-
-
-# Faisons des trucs sympa avec Arduino et Scratch !
-
-
-
-## Objectifs
-
-1. Le premier objectif de ce module est de s'initier à la robotique, à l'aide d'un Arduino UNO.
-2. Le second objectif est de prendre conscience de ses acquis en terme de code, via Scratch.
+## Initiation à la robotique avec Arduino
 
 
 
-## Préparation
+### Bullit (Flash McQueen pour les plus jeunes)
 
-+ Installer [Arduino IDE](https://www.arduino.cc/) (sudo apt install arduino) et [S4A](http://s4a.cat)
-+ Connecter le capteur infrarouge et la diode selon les schémas suivants :
-![infrared module wiring](https://github.com/SimplonAuch2/S4A/blob/master/infrared.resized.jpg "Comment brancher le détecteur infrarouge ?")
-![LED wiring](https://github.com/SimplonAuch2/S4A/blob/master/led.resized.png "Comment brancher la diode ?")
+Pour démarrer en douceur, voici un petit montage qui permet de contrôler une voiture avec Scratch :)
+La voiture fonctionne grâce à une carte de prototypage Arduino, qui pour simplifier est l'assemblage
+de trois éléments :
+ - une puce programmable (appelée chipset)
+ - l'électronique nécessaire à sa programmation via un port USB
+ - des connecteurs libres permettant de relier le chipset à l'autres modules
 
-**Attention ! Celui qui crame le matos a un gage !**
-
-+ Brancher l'arduino au PC en USB, puis Lancer s4a.
-+ Créer un programme qui répond aux indications suivantes :
-  + Si je passe ma main devant le capteur, on entend un bruit de cheval
-  + A la troisième détection, ce n'est plus un bruit de cheval, mais un cri de personne !
-  + La diode s'allume quand un bruit est généré, et s'éteind quand le son est terminé.
-  + Après 3 détections, le programme s'arrête !
+[application](../blob/master/VOITURE.md) 
 
 
-![Le projet](https://github.com/SimplonAuch2/S4A/blob/master/IMG_20180719_123834.resized.jpg "Le projet")
+
+### Halte, on ne passe pas !
+
+Le module détecteur infrarouge est un capteur de proximité, qui permet de détecter la présence d'un objet, 
+et permet de récupérer la distance à laquelle il se trouve. Comme il fonctionne grâce à l'envoi d'un faisceau 
+lumineux, la qualité du signal peut être perturbée en plein jour ! Le noir renvoyant peu la lumière, on comprend
+aussi que la couleur de l'objet est importante (on peux donc s'en servir pour détecter une trace au sol si elle
+se démarque assez du reste ;) 
+
+[application](../blob/master/DETECTION.md)
+
+
+
+### Le robot tueur
+
+Un servomoteur est un moteur conçu pour tenir un axe dans une position précise. C'est très pratique pour contrôler
+l'articulation d'un bras robot par exemple !
+
+[application](../blob/master/DETECTION.md)
+
