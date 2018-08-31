@@ -16,7 +16,7 @@
 + Installer [Arduino IDE](https://www.arduino.cc/) (sudo apt install arduino) et [S4A](http://s4a.cat)
 + Connecter le capteur infrarouge et la diode selon les schémas suivants :
 ![infrared module wiring](https://github.com/SimplonAuch2/S4A/blob/master/infrared.resized.jpg "Comment brancher le détecteur infrarouge ?")
-![LED wiring](blob/master/assetsled.resized.png "Comment brancher la diode ?")
+![LED wiring](assets/led.resized.png "Comment brancher la diode ?")
 
 **Attention ! Celui qui crame le matos a un gage !**
 
@@ -28,4 +28,4 @@
   + Après 3 détections, le programme s'arrête !
 
 
-![Le projet](blob/master/assets/IMG_20180719_123834.resized.jpg "Le projet")
+![Le projet](assets/IMG_20180719_123834.resized.jpg "Le projet")

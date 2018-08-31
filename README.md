@@ -11,7 +11,7 @@ de trois éléments :
  - l'électronique nécessaire à sa programmation via un port USB
  - des connecteurs libres permettant de relier le chipset à l'autres modules
 
-[application](blob/master/VOITURE.md) 
+[application](VOITURE.md) 
 
 
 
@@ -23,7 +23,7 @@ lumineux, la qualité du signal peut être perturbée en plein jour ! Le noir re
 aussi que la couleur de l'objet est importante (on peux donc s'en servir pour détecter une trace au sol si elle
 se démarque assez du reste ;) 
 
-[application](blob/master/DETECTION.md)
+[application](DETECTION.md)
 
 
 
@@ -32,5 +32,5 @@ se démarque assez du reste ;)
 Un servomoteur est un moteur conçu pour tenir un axe dans une position précise. C'est très pratique pour contrôler
 l'articulation d'un bras robot par exemple !
 
-[application](blob/master/DETECTION.md)
+[application](DETECTION.md)
 
