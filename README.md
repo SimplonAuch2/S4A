@@ -29,8 +29,14 @@ se démarque assez du reste ;)
 
 ### Le robot tueur
 
-Un servomoteur est un moteur conçu pour tenir un axe dans une position précise. C'est très pratique pour contrôler
-l'articulation d'un bras robot par exemple !
+Un servomoteur est un moteur conçu pour tenir un axe dans une position précise. C'est très pratique pour contrôler les articulations d'un bras robot par exemple !
 
-[application](DETECTION.md)
+[application](ROBOT.md)
 
+
+
+### Aààà taaaable !
+
+On profite de jouer avec un bras robot pour lui faire pointer l'heure du doigt
+
+[application](HEURE.md)
